@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const footer = () => {
   return (
     <section>
@@ -63,12 +63,9 @@ const footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://registration-ispc.vercel.app/"
-                      target="_blank"
-                    >
-                      Registration Here
-                    </a>
+                    <Link href="/homeregist" legacyBehavior>
+                      <a>Registration Here</a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -77,9 +77,9 @@ const navigation = () => {
               <Link href="/contactpages" legacyBehavior>
                 <a className="nav-item nav-link">Contact </a>
               </Link>
-              <Link href="/homeregist" legacyBehavior>
+              {/* <Link href="/" legacyBehavior>
                 <a className="nav-item nav-link">Regist here! </a>
-              </Link>
+              </Link> */}
             </div>
             <div className="ms-lg-3">
               <a
